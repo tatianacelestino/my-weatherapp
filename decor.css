@@ -65,3 +65,7 @@ body {
 .temp {
   font-size: 35px;
 }
+
+p {
+  text-align: center;
+}
