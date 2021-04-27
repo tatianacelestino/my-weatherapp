@@ -59,14 +59,14 @@ body {
 }
 
 .temp {
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .celcius,
 .fahrenheit,
 .bar {
   position: relative;
-  top: -30px;
+  top: -20px;
 }
 
 p {
