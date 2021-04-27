@@ -62,9 +62,11 @@ body {
   font-size: 40px;
 }
 
-.degrees {
+.celcius,
+.fahrenheit,
+.bar {
   position: relative;
-  top: -20px;
+  top: -30px;
 }
 
 p {
