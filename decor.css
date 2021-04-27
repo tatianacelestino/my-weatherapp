@@ -60,6 +60,9 @@ body {
 
 .temp {
   font-size: 40px;
+}
+.celcius,
+.fahrenheit {
   position: relative;
   top: -20px;
 }
