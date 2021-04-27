@@ -1,3 +1,7 @@
+body {
+  font-family: sans-serif;
+}
+
 .container {
   background-color: #fff;
   max-width: 700px;
@@ -13,7 +17,7 @@
 h1 {
   font-size: 45px;
   color: gray;
-  font-family: "Courier New", Courier, monospace;
+
   font-weight: bold;
 }
 
@@ -24,7 +28,7 @@ h1 {
 
 .today {
   font-size: 25px;
-  font-family: "Courier New", Courier, monospace;
+
   text-align: center;
 }
 
