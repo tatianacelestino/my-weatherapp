@@ -35,7 +35,7 @@ let changeCity = document.querySelector("#city-form");
 changeCity.addEventListener("submit", citySearch);
 
 
- let apiKey = "166250c85e8d3dfc0b7a447a4106a883";
+ 
 
 function showTemperature(response){
   let temperature= Math.round(response.data.main.temp);
@@ -47,6 +47,7 @@ function showTemperature(response){
 
   
 }
+let apiKey = "166250c85e8d3dfc0b7a447a4106a883";
 
 function searchCity(event) {
   event.preventDefault();
