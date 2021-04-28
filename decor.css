@@ -68,7 +68,7 @@ h1 {
 .celcius,
 .fahrenheit,
 .bar {
-  display: relative;
+  position: relative;
   top: -20px;
   font-size: 10px;
 }
