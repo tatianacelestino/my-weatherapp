@@ -38,6 +38,9 @@ changeCity.addEventListener("submit", citySearch);
  
 
 function showTemperature(response){
+
+  console.log(response.data);
+  
   let temperature= Math.round(response.data.main.temp);
   let cityTemp= response.data.name;
   let cityId= document.querySelector("#city-id");
