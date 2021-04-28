@@ -70,7 +70,7 @@ h1 {
 .fahrenheit,
 .bar {
   display: relative;
-  top: 20px;
+  top: -20px;
   font-size: 10px;
 }
 
