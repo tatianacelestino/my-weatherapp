@@ -72,6 +72,7 @@ h1 {
 .bar {
   display: relative;
   top: 20px;
+  font-size: 10px;
 }
 
 p {
