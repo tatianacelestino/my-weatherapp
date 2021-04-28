@@ -40,13 +40,17 @@ changeCity.addEventListener("submit", citySearch);
 function showTemperature(response){
 
   console.log(response.data);
-  
+
   let temperature= Math.round(response.data.main.temp);
   let cityTemp= response.data.name;
   let cityId= document.querySelector("#city-id");
   cityId.innerHTML= `${cityTemp}`;
   let realTemp= document.querySelector("#temp-display");
   realTemp.innerHTML= `${temperature}`;
+  let iconElement= document.querySelector("#icon");
+  iconElement.setAttribute("src", `http://openweathermap.org/img/wn${response.data.weather[0].icon}2x.png`);
+  iconElement.setAttribute("alt", response.data.weather[0].description);
+
 
   
 }
