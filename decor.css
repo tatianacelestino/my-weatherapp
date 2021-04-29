@@ -53,7 +53,8 @@ h1 {
   font-size: 35px;
 }
 
-.card-body-search {
+.card-body {
+  width: 300px;
   padding-top: 10px;
   margin: 15px;
 }
