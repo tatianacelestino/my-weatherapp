@@ -21,6 +21,10 @@ h1 {
   text-decoration: none;
 }
 
+.col-6 {
+  width: 300px;
+}
+
 .container {
   background-color: #fff;
   max-width: 700px;
