@@ -59,7 +59,7 @@ h1 {
   margin: 15px;
 }
 
-.card-text {
+.weather-temperature {
   text-align: center;
 }
 
@@ -75,6 +75,9 @@ h1 {
   text-decoration: none;
 }
 
+.celsius {
+  color: black;
+}
 .bar {
   position: relative;
   top: -17px;
