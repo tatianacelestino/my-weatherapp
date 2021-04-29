@@ -50,7 +50,7 @@ h1 {
 }
 
 .city {
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .card-body-search {
@@ -59,7 +59,7 @@ h1 {
   margin: 15px;
 }
 
-.weather-temperature {
+.card-text {
   text-align: center;
 }
 
@@ -67,6 +67,9 @@ h1 {
   font-size: 35px;
 }
 
+.celsius {
+  color: black;
+}
 .celsius,
 .fahrenheit {
   position: relative;
