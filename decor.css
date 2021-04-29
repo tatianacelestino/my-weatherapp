@@ -23,6 +23,7 @@ h1 {
 
 .col-6 {
   width: 300px;
+  display: block;
 }
 
 .container {
