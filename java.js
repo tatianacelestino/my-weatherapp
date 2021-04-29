@@ -47,7 +47,7 @@ function showTemperature(response){
   let realTemp= document.querySelector("#temp-display");
   let humidityElement= document.querySelector("#humidity");
   let windElement= document.querySelector("#wind-speed");
-  let iconElement= document.querySelector("#icon");
+  let iconElement= document.querySelector("#icon-weather");
   realTemp.innerHTML= `${temperature}`;
   humidityElement.innerHTML= response.data.main.humidity;
   windElement.innerHTML= response.data.wind.speed;
