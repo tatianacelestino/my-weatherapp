@@ -55,7 +55,7 @@ function showTemperature(response){
   iconElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}2x.png`);
   iconElement.setAttribute("alt", response.data.weather[0].description);
 
-  positionNow(response.data.coord);
+ 
   
 }
 let apiKey = "166250c85e8d3dfc0b7a447a4106a883";
