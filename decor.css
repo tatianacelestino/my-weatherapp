@@ -64,13 +64,13 @@ h1 {
 .celcius,
 .fahrenheit {
   position: relative;
-  top: -18px;
+  top: -17px;
   font-size: 12px;
   text-decoration: none;
 }
 .bar {
   position: relative;
-  top: -18px;
+  top: -17px;
   font-size: 12px;
 }
 
