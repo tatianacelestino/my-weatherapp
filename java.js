@@ -47,6 +47,10 @@ function showTemperature(response){
   cityId.innerHTML= `${cityTemp}`;
   let realTemp= document.querySelector("#temp-display");
   realTemp.innerHTML= `${temperature}`;
+  let humidityElement= document.querySelector("#humidy");
+  humidityElement.innerHTML= response.data.main.humidity;
+  let windElement= document.querySelector("#wind");
+  windElement.innerHTML= Math.round(response.data.main.wind.speed);
   let iconElement= document.querySelector("#icon");
   iconElement.setAttribute("src", `http://openweathermap.org/img/wn${response.data.weather[0].icon}2x.png`);
   iconElement.setAttribute("alt", response.data.weather[0].description);
