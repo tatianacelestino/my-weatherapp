@@ -78,6 +78,10 @@ h1 {
 .celsius {
   color: black;
 }
+
+.celsius :hover {
+  color: black;
+}
 .bar {
   position: relative;
   top: -17px;
