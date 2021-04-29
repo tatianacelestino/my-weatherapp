@@ -67,15 +67,16 @@ h1 {
   font-size: 35px;
 }
 
-.celsius {
-  color: black;
-}
 .celsius,
 .fahrenheit {
   position: relative;
   top: -17px;
   font-size: 12px;
   text-decoration: none;
+}
+
+.celsius {
+  color: black;
 }
 .bar {
   position: relative;
