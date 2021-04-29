@@ -45,7 +45,7 @@ function showTemperature(response){
   let cityTemp= response.data.name;
   let cityId= document.querySelector("#city-id");
   let realTemp= document.querySelector("#temp-display");
-  let humidityElement= document.querySelector("#humidy");
+  let humidityElement= document.querySelector("#humidity");
   let windElement= document.querySelector("#wind");
   let iconElement= document.querySelector("#icon");
   realTemp.innerHTML= `${temperature}`;
