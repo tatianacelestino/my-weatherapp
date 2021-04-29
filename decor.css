@@ -54,6 +54,7 @@ h1 {
 }
 
 .card-body-search {
+  width: 300px;
   padding-top: 10px;
   margin: 15px;
 }
