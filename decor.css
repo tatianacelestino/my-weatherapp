@@ -27,8 +27,7 @@ h1 {
 }
 
 .container {
-  color: blue;
-  background-color: #fff;
+  background-color: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   max-width: 700px;
   height: 650px;
   margin: 0 auto;
