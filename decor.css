@@ -27,6 +27,7 @@ h1 {
 }
 
 .container {
+  color: blue;
   background-color: #fff;
   max-width: 700px;
   height: 650px;
