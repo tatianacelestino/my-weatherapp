@@ -26,10 +26,17 @@ h1 {
   display: block;
 }
 
+.col-8 {
+  margin-bottom: 20px;
+}
+
+.dayWeek {
+  font-size: 14px;
+}
+
 .container {
-  background-color: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   max-width: 800px;
-  height: 650px;
+  height: 600px;
   margin: 0 auto;
   border: 3px solid gray;
   border-radius: 10px;
@@ -43,6 +50,9 @@ h1 {
   padding: 10px;
 }
 
+.col-3-lg {
+  max-width: 170px;
+}
 .icon {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -104,8 +114,4 @@ img {
 
 p {
   text-align: center;
-}
-
-.col-3 {
-  column-gap: 2px;
 }
