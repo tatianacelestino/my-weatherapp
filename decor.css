@@ -16,7 +16,7 @@ ul {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 38px;
   color: gray;
   text-decoration: none;
 }
@@ -41,7 +41,12 @@ h1 {
 
 .row {
   height: 250px;
-  padding: 20px;
+  padding: 10px;
+}
+
+.icon {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .today {
