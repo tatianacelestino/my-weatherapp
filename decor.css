@@ -56,13 +56,13 @@ h1 {
 }
 
 .city {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .card-body-search {
   width: 300px;
   padding-top: 10px;
-  margin: 15px;
+  margin: 10px;
 }
 
 .weather-temperature {
@@ -71,8 +71,8 @@ h1 {
 
 .temp {
   font-size: 35px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 .active {
