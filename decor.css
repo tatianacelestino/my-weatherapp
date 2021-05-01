@@ -79,6 +79,12 @@ h1 {
   color: black;
 }
 
+img {
+  font-size: 15px;
+  margin: 0 auto;
+  padding: 2px;
+}
+
 .active,
 .fahrenheit {
   position: relative;
