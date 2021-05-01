@@ -52,6 +52,7 @@ h1 {
 .today {
   font-size: 25px;
   text-align: center;
+  margin-top: 8px;
 }
 
 .city {
@@ -70,6 +71,8 @@ h1 {
 
 .temp {
   font-size: 35px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .active {
