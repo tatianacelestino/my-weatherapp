@@ -56,7 +56,7 @@ function showTemperature(response){
   windElement.innerHTML= response.data.wind.speed;
   descriptionElement.innerHTML= response.data.weather[0].description;
   cityId.innerHTML= `${cityTemp}`;
-  iconElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}2x.png`);
+  iconElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
   
 
  celsiusTemperature = response.data.main.temp;
