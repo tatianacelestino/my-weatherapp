@@ -112,6 +112,8 @@ function showTemperature(response){
   
 
  celsiusTemperature = response.data.main.temp;
+
+ getForecast(response.data.coord);
   
 }
 let apiKey = "166250c85e8d3dfc0b7a447a4106a883";
