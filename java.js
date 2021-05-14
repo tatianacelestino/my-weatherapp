@@ -65,27 +65,7 @@ function showTemperature(response){
 let apiKey = "166250c85e8d3dfc0b7a447a4106a883";
 
 
-function displayFahrenheit(event){
-  event.preventDefault();
-  let temperatureElement= document.querySelector("#temp-display");
-  let fahrenheitTemperature= (celsiusTemperature *9) / 5 + 32;
-  temperatureElement.innerHTML= Math.round(fahrenheitTemperature);
-}
 
-function displayCelsius(event){
-  event.preventDefault();
-  let temperatureElement= document.querySelector("#temp-display");
-  temperatureElement.innerHTML= Math.round(celsiusTemperature);
-
-
-}
-let fahrenheitLink= document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", displayFahrenheit);
-
-let celsiusLink= document.querySelector("#celsius-link");
-celsiusLink.addEventListener("click", displayCelsius);
-
-let celsiusTemperature= null;
 
 
 
