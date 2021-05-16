@@ -49,6 +49,7 @@ h1 {
 
 .row {
   padding: 10px;
+  background-image: linear-gradient(to top, #fff 0%, #e3eeff 99%, #e3eeff 100%);
 }
 
 .col-3-lg {
