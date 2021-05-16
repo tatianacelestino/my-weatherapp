@@ -35,6 +35,7 @@ h1 {
 }
 
 .container {
+  background: rgb(105, 105, 241);
   max-width: 800px;
   height: 550px;
   margin: 0 auto;
